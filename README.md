@@ -11,16 +11,18 @@
 ## 구성
 
 ```
-index.html   사이트 전체 (CSS 포함, 한 파일)
-README.md    이 문서
+index.html                       사이트 전체 (CSS 포함, 한 파일)
+docs/김경민_이력서.pdf            이력서 (1쪽)
+docs/김경민_지원서류.pdf          이력서·자기소개서·경력기술서 (3쪽)
+README.md                        이 문서
 ```
 
 ## 배포 방법
 
-1. 저장소 `birdmin-portfolio`를 Public으로 만들고 `index.html`과 `README.md`를 main 브랜치에 올립니다.
+1. 저장소 `birdmin-portfolio`를 Public으로 만들고 위 파일을 main 브랜치에 올립니다.
 2. Settings → Pages → Source를 `Deploy from a branch`, 브랜치를 `main`, 폴더를 `/ (root)`로 저장합니다.
 3. 1~2분 뒤 https://birdmin.github.io/birdmin-portfolio/ 가 열립니다. 시크릿 창에서 로그인 없이 열리는지 확인합니다.
 
-## 수정 방법
+## 새로 쓰는 방법
 
-`index.html`을 고쳐 다시 올리면 사이트가 바뀝니다. 숫자 칸의 출처는 각 숫자 아래에 적혀 있습니다.
+숫자 칸과 능력별 기록은 별도 장치(`site-updater`)가 새 기록에서 다시 만든 `index.html`로 바뀝니다. 장치를 돌린 뒤 나온 `out/index.html`을 이 저장소의 `index.html`로 교체해 올리세요.

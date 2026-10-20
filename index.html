@@ -71,6 +71,13 @@ a:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius
 
 footer{margin-top:2rem;padding:2rem 0 3rem;border-top:1px solid var(--line);font-size:.95rem}
 footer p{margin:0 0 .35rem}
+.abil{margin:1rem 0 0}
+.abil h3{margin:0 0 .35rem;font-size:1.05rem}
+.abil ul{margin:0 0 1rem;padding:0;list-style:none}
+.abil li{padding:.6rem 0;border-bottom:1px solid var(--line);font-family:var(--serif)}
+.abil .when{display:block;font-family:var(--sans);font-size:.82rem;color:var(--muted)}
+.docs{margin:.9rem 0 0;padding-left:1.1rem}
+.docs li{margin:0 0 .35rem}
 .pair{margin:1rem 0 1.5rem;padding:1.1rem 1.2rem;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:6px}
 .pair .then{margin:0 0 .5rem;font-family:var(--serif);color:var(--muted)}
 .pair .big{margin:0;font-family:var(--serif);font-weight:700;font-size:1.3rem;line-height:1.6;word-break:keep-all}
@@ -149,6 +156,7 @@ footer p{margin:0 0 .35rem}
 
   <section class="slot" id="numbers" aria-labelledby="numbers-h">
     <h2 id="numbers-h">숫자</h2>
+    <!--AUTO:numbers-start-->
     <p>2026년 8월 11일부터 10주(45일) 동안의 기록에서 가져온 숫자입니다. 숫자마다 출처를 적었습니다.</p>
     <div class="pair">
       <p class="then">고2의 저는 포기하고 싶어도 버티기만 했습니다.</p>
@@ -160,7 +168,11 @@ footer p{margin:0 0 .35rem}
       <li><b>아침 기록 45일, 마무리 기록 41일</b>평일 연속으로 27일(8월 18일~9월 23일) 아침 기록을 이어 간 구간이 있습니다.<span class="src">출처: 리추얼 기록</span></li>
       <li><b>강점 행동: 실천했다 21일, 일부 실천했다 16일, 못 했다 4일</b>마무리를 쓴 41일 기준입니다.<span class="src">출처: 리추얼 기록</span></li>
     </ul>
+<!--AUTO:numbers-end-->
   </section>
+
+  <!--AUTO:abilities-start-->
+<!--AUTO:abilities-end-->
 
   <section class="slot" id="work" aria-labelledby="work-h">
     <h2 id="work-h">대표작</h2>
@@ -183,8 +195,11 @@ footer p{margin:0 0 .35rem}
 
   <section class="slot" id="resume" aria-labelledby="resume-h">
     <h2 id="resume-h">이력서</h2>
-    <p>이력서, 자기소개서, 경력기술서를 문서로 올릴 자리입니다.</p>
-    <div class="empty">문서 3종을 곧 올립니다.</div>
+    <p>이력서, 자기소개서, 경력기술서입니다.</p>
+    <ul class="docs">
+      <li><a href="docs/%EA%B9%80%EA%B2%BD%EB%AF%BC_%EC%9D%B4%EB%A0%A5%EC%84%9C.pdf">이력서 (PDF, 1쪽)</a></li>
+      <li><a href="docs/%EA%B9%80%EA%B2%BD%EB%AF%BC_%EC%A7%80%EC%9B%90%EC%84%9C%EB%A5%98.pdf">이력서·자기소개서·경력기술서 (PDF)</a></li>
+    </ul>
   </section>
 </main>
 

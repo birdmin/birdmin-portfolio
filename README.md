@@ -7,6 +7,7 @@
 - 사이트: https://birdmin.github.io/birdmin-portfolio/
 - 연락: birdmin9210@gmail.com
 - 대표작(논문): https://github.com/birdmin/dns-tunnel-entropy-detection
+- 대표작(앱): https://birdmin.github.io/dns-tunnel-explorer/
 
 ## 구성
 
